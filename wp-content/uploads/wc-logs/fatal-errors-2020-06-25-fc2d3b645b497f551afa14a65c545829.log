@@ -1,0 +1,21 @@
+2020-06-25T10:14:36+00:00 CRITICAL require_once(): Failed opening required '/home/aritrika/public_html/wp-content/plugins/js_composer/include/params/column_offset/column_offset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aritrika/public_html/wp-content/plugins/js_composer/include/params/load.php on line 28
+
+2020-06-25T10:14:36+00:00 CRITICAL require_once(): Failed opening required '/home/aritrika/public_html/wp-content/plugins/js_composer/include/params/load.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aritrika/public_html/wp-content/plugins/js_composer/include/classes/core/class-vc-mapper.php on line 52
+
+2020-06-25T10:24:52+00:00 CRITICAL Uncaught Error: Class 'WC_Integration_MaxMind_Geolocation' not found in /home/aritrika/public_html/wp-content/plugins/woocommerce/includes/class-wc-integrations.php:41
+Stack trace:
+#0 /home/aritrika/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(556): WC_Integrations->__construct()
+#1 /home/aritrika/public_html/wp-includes/class-wp-hook.php(287): WooCommerce->init('')
+#2 /home/aritrika/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 /home/aritrika/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/aritrika/public_html/wp-settings.php(540): do_action('init')
+#5 /home/aritrika/public_html/wp-config.php(90): require_once('/home/aritrika/...')
+#6 /home/aritrika/public_html/wp-load.php(37): require_once('/home/aritrika/...')
+#7 /home/aritrika/public_html/wp-admin/admin-ajax.php(22): require_once('/home/aritrika/...')
+#8 {main}
+  thrown in /home/aritrika/public_html/wp-content/plugins/woocommerce/includes/class-wc-integrations.php on line 41
+
+2020-06-25T10:47:27+00:00 CRITICAL require_once(): Failed opening required '/home/aritrika/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductOnSale.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aritrika/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php on line 168
+
+2020-06-25T10:47:34+00:00 CRITICAL require_once(): Failed opening required '/home/aritrika/public_html/wp-content/plugins/js_composer/include/params/param_group/param_group.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aritrika/public_html/wp-content/plugins/js_composer/include/params/load.php on line 31
+
